@@ -113,7 +113,7 @@ export default async function handler(request) {
       },
       body: JSON.stringify({
         from: 'IEETek Turkey <onboarding@resend.dev>',
-        to: 'fusionmarktofficial@gmail.com',
+        to: 'alsancakserver@gmail.com', // Resend ücretsiz plan - sadece kendi mailinize gönderebilir
         reply_to: email,
         subject: `IEETek Turkey - Yeni İletişim: ${name}`,
         html: htmlContent,
