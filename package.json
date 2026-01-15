@@ -2,6 +2,7 @@
   "name": "ieetekturkey-website",
   "version": "1.0.0",
   "description": "IEETek Turkey Website",
+  "type": "module",
   "private": true,
   "scripts": {
     "dev": "vercel dev",
