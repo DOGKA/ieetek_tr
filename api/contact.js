@@ -112,8 +112,8 @@ export default async function handler(request) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: 'IEETek Turkey <onboarding@resend.dev>', // Doğrulanmış domain sonrası: noreply@ieetekturkey.com
-        to: ['fusionmarktofficial@gmail.com'],
+        from: 'IEETek Turkey <onboarding@resend.dev>',
+        to: 'fusionmarktofficial@gmail.com',
         reply_to: email,
         subject: `IEETek Turkey - Yeni İletişim: ${name}`,
         html: htmlContent,
