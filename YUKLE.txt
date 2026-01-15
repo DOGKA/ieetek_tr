@@ -1,0 +1,25 @@
+🚀 PLESK'E YÜKLEME
+
+Bu klasördeki TÜM dosyaları Plesk'teki httpdocs/ klasörüne yükle.
+
+✅ İÇERİK:
+- 43 HTML sayfa (Türkçe)
+- 3 CSS dosyası (fiyatlar + blog düzeltmeleri)
+- 2 PHP dosyası (contact.php + mail backend)
+- 2 JavaScript dosyası (form handler)
+- wp-content/ (görseller, CSS, JS - 1.3GB)
+- wp-includes/ (WordPress assets)
+
+⏱️ UPLOAD SÜRESİ: ~10-15 dakika (FTP)
+
+📧 MAİL AYARI:
+Otomatik çalışacak - fusionmarktofficial@gmail.com'a mail gidecek
+
+🔒 SSL:
+Plesk → Hosting & DNS → SSL/TLS → Let's Encrypt → Install (Free)
+
+🌐 TEST:
+https://ieetekturkey.com
+
+✅ HAZIR!
+

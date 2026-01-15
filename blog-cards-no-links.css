@@ -1,0 +1,71 @@
+/* Blog sayfası - SADECE blog kartlarındaki linkleri kaldır */
+
+/* Header, Menü, Footer HER ZAMAN ÇALIŞSIN */
+header,
+header *,
+.header,
+.header *,
+.header-main,
+.header-main *,
+.header-wrapper,
+.header-wrapper *,
+nav,
+nav *,
+.nav,
+.nav *,
+.nav-dropdown,
+.nav-dropdown *,
+.mobile-nav,
+.mobile-nav *,
+.mobile-sidebar,
+.mobile-sidebar *,
+#main-menu,
+#main-menu *,
+.header-nav a,
+.menu-item a,
+footer,
+footer *,
+.footer-wrapper,
+.footer-wrapper *,
+.absolute-footer,
+.absolute-footer * {
+    pointer-events: auto !important;
+    cursor: pointer !important;
+}
+
+/* SADECE #post-list içindeki blog kartlarının linklerini kaldır */
+/* Header, footer, logo'ya DOKUNMA! */
+
+#post-list .box-blog-post a,
+#post-list .box-blog-post a.plain,
+#post-list .box-blog-post .box-image a,
+#post-list .box-blog-post .post-title a,
+#post-list .box-blog-post a[href],
+#post-list .box-blog-post a[aria-label] {
+    pointer-events: none !important;
+    cursor: default !important;
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+/* Ana sayfadaki slider - blog kartları */
+.row-slider .box-blog-post a,
+.slider .box-blog-post a {
+    pointer-events: none !important;
+    cursor: default !important;
+}
+
+/* Blog kartları hover efekti kaldır */
+#post-list .box-blog-post.has-hover:hover,
+.row-slider .box-blog-post.has-hover:hover {
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+/* Pagination gizle */
+.page-numbers,
+.nav-pagination,
+ul.page-numbers {
+    display: none !important;
+}
+

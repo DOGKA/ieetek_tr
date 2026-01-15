@@ -1,0 +1,55 @@
+/* Ürün sayfaları - Fiyat butonları düzeltmesi */
+
+/* Buton container - hepsi aynı hizada */
+.product-short-description > p {
+    display: flex !important;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+/* Fiyat butonu - tıklanamaz, sadece gösterim */
+.product-short-description > p > a.button.primary[style*="cursor: default"] {
+    cursor: default !important;
+    pointer-events: none !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 10px 25px !important;
+    line-height: 1 !important;
+}
+
+/* Fiyat metni - büyük ve bold */
+.product-short-description > p > a.button.primary[style*="cursor: default"] > span:first-child {
+    font-size: 1.3em !important;
+    font-weight: bold !important;
+    line-height: 1 !important;
+}
+
+/* "Vergiler Dahil" - küçük ve soluk */
+.product-short-description > p > a.button.primary[style*="cursor: default"] > span:last-child {
+    font-size: 0.6em !important;
+    opacity: 0.85 !important;
+    margin-top: 4px !important;
+}
+
+/* Diğer butonlar - aynı yükseklikte */
+.product-short-description > p > a.button {
+    display: flex !important;
+    align-items: center !important;
+    padding: 10px 20px !important;
+}
+
+/* Mobile responsive */
+@media (max-width: 549px) {
+    .product-short-description > p {
+        flex-direction: column;
+    }
+    
+    .product-short-description > p > a.button {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
