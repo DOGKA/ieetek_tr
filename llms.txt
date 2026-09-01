@@ -1,16 +1,16 @@
 # IEETek Türkiye
 
-> IEETek Türkiye, Zhuhai Initial Entropy Energy Co., Ltd. (IEETek / Initial Entropy Energy) markasının Türkiye ofisi ve yerel destek noktasıdır. IEETek; taşınabilir güç istasyonları, güneş panelleri ve enerji depolama sistemleri geliştirir.
+> IEETek Türkiye, Zhuhai Initial Entropy Energy Co., Ltd. (IEETek / Initial Entropy Energy) ürünlerinin Türkçe tanıtım sitesidir. IEETek; taşınabilir güç istasyonları, güneş panelleri ve enerji depolama sistemleri geliştirir.
 
 Ana web sitesi: https://ieetekturkey.com/
 
 ## Kurumsal
 
-- IEETek Türkiye Ofisi: https://ieetekturkey.com/
+- IEETek Türkiye (Türkçe site): https://ieetekturkey.com/
 - IEETek hakkında: https://ieetekturkey.com/about/
 - İletişim: https://ieetekturkey.com/contact/
-- Türkiye ofisi telefonu: +90 850 840 6160
-- Hizmet bölgesi: Türkiye
+- İletişim telefonu: +90 850 840 6160
+- İçerik dili ve hedef pazar: Türkçe / Türkiye
 - Küresel üretici: Zhuhai Initial Entropy Energy Co., Ltd. (IEETek)
 - Yetkili satış kanalı: ASDTC Mühendislik (FusionMarkt), https://fusionmarkt.com/
 
